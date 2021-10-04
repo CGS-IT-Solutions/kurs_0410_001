@@ -11,6 +11,8 @@
     <name>Simple Test</name>
     <url>http://maven.apache.org</url>
 
+
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
@@ -31,6 +33,24 @@
             </plugin>
         </plugins>
     </build>
+
+    <scm>
+        <url>https://github.com/CGS-IT-Solutions/kurs_0410_001</url>
+        <connection>scm:git:https://github.com/CGS-IT-Solutions/kurs_0410_001</connection>
+        <developerConnection>scm:git:https://github.com/CGS-IT-Solutions/kurs_0410_001</developerConnection>
+        <tag>test</tag>
+    </scm>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>kurs_04_10</id>
+            <url>http://ec2-3-87-211-121.compute-1.amazonaws.com:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
+        <repository>
+            <id>nexus-releases</id>
+            <url>http://ec2-3-87-211-121.compute-1.amazonaws.com:8081/repository/maven-releases/</url>
+        </repository>
+    </distributionManagement>
 
     <dependencies>
         <dependency>
