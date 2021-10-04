@@ -18,6 +18,6 @@ class TestClassTest {
 
     @Test
     void main() {
-        assertTrue(true);
+        assertEquals("Hello", TestClassTwo.getHello());
     }
 }
