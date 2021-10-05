@@ -34,7 +34,7 @@
         <url>https://github.com/CGS-IT-Solutions/kurs_0410_001</url>
         <connection>scm:git:https://github.com/CGS-IT-Solutions/kurs_0410_001</connection>
         <developerConnection>scm:git:https://github.com/CGS-IT-Solutions/kurs_0410_001</developerConnection>
-        <tag>first_releaase</tag>
+        <tag>first_release</tag>
     </scm>
 
     <distributionManagement>
