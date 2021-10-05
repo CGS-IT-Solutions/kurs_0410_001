@@ -10,6 +10,8 @@ public class TestClassTwo {
     static String getHello() {
         LOGGER.debug("Hello logger");
         LOGGER.error("WHAT HAPPENED! ERROR!");
+
+        LOGGER.error("THIS ERROR IS A FEATURE!");
         return "Hello";
     }
 
