@@ -19,7 +19,7 @@ class ClassTest {
     @Test
     void testOne() {
         assertEquals("Hello", TestClassTwo.getHello());
-        assertEquals("asdf", TestClassTwo.getHello());
+        //assertEquals("asdf", TestClassTwo.getHello());
     }
 
 
