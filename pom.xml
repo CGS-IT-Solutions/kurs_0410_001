@@ -3,7 +3,7 @@
 
     <groupId>at.cgsit.one</groupId>
     <artifactId>simpletest</artifactId>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.1</version>
     <packaging>jar</packaging>
 
     <name>Simple Test</name>
@@ -34,7 +34,7 @@
         <url>https://github.com/CGS-IT-Solutions/kurs_0410_001</url>
         <connection>scm:git:https://github.com/CGS-IT-Solutions/kurs_0410_001</connection>
         <developerConnection>scm:git:https://github.com/CGS-IT-Solutions/kurs_0410_001</developerConnection>
-        <tag>first</tag>
+        <tag>asdfasdfasdf</tag>
     </scm>
 
     <distributionManagement>
