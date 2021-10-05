@@ -16,6 +16,12 @@ pipeline {
                 }
             }
         }
+        stage("Build Project") {
+            steps{
+                echo 'build'
+                sh 'mvn -B -DskipTests clean package'
+            }
+        }
     }
     post {
         failure {
