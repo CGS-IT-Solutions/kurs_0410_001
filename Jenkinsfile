@@ -38,16 +38,17 @@ pipeline {
                 echo 'ECHOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO'
             }
         }
-
+/*
         stage('Build Downstream Jobs') {
-                     when {
-                        expression {build_downstream == true}
-                     }
-                     steps {
-                                echo "build downstream jobs"
-                                build job: "kurs_0410_002", wait: true
-                     }
+            when {
+                expression { build_downstream == true }
+            }
+            steps {
+                echo "build downstream jobs"
+                build job: "kurs_0410_002", wait: true
+            }
         }
+ */
     }
     post {
         failure {
