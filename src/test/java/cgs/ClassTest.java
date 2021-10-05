@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class TestClassTest {
+class ClassTest {
 
     @BeforeEach
     void setUp() {
@@ -17,7 +17,10 @@ class TestClassTest {
     }
 
     @Test
-    void main() {
+    void testOne() {
         assertEquals("Hello", TestClassTwo.getHello());
+        assertEquals("asdf", TestClassTwo.getHello());
     }
+
+
 }
