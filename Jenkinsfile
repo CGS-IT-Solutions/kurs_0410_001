@@ -33,6 +33,11 @@ pipeline {
                             }
                         }
         }
+        stage('ECHO') {
+                    steps{
+                        echo 'ECHOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO'
+                    }
+                }
     }
     post {
         failure {
