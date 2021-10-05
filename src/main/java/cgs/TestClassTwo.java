@@ -12,6 +12,8 @@ public class TestClassTwo {
         LOGGER.error("WHAT HAPPENED! ERROR!");
 
         LOGGER.error("THIS ERROR IS A FEATURE!");
+
+        LOGGER.error("OK WHAT IS HAPPENING");
         return "Hello";
     }
 
